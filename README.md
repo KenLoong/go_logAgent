@@ -45,9 +45,10 @@ bin\windows\kafka-console-consumer.bat --bootstrap-server=127.0.0.1:9092 --topic
 
 
 ## kibana
-修改config下的配置文件kibana.yml
-elasticsearch.url: "http://localhost:9200"
-i18n.defaultLocale: "zh-CN"
+修改config下的配置文件kibana.yml，修改两处地方
+
+- elasticsearch.url: "http://localhost:9200"
+- i18n.defaultLocale: "zh-CN"
 
 启动文件：kibana.bat
 
